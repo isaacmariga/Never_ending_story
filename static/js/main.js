@@ -21,29 +21,64 @@ $("#switch2_4").click(function() {
 })
 
 
-let page = document.getElementById("root");
-let newPage = document.getElementById("newPage");
 
 
-$("#switch2_3").click(function() {
-
-    $("#story2_4").hide();
-    $("#story2_5").hide();
-
-    let cont = document.createElement("div");
-    let div = document.createElement("div");
-    let title = document.createElement("h1");
-    let dec = document.createElement("p");
-
-
-    cont.appendChild(div);
-    div.appendChild(title);
-    div.appendChild(dec);
-
-    title = "books";
-    dec = "books are good";
-
+$("#btn1").click(function() {
+    $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(/static/images/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg)")
+    $(".adventure").css("color", "black")
+    $(".adventure_container").hide();
+    $("#adventure_container").show();
 })
+$("#btn2").click(function() {
+    $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(/static/images/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg)")
+    $(".adventure").css("color", "white")
+    $(".adventure_container").hide();
+    $("#adventure_container2").show();
+})
+$("#btn3").click(function() {
+    $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/static/images/lauza-loistl-pkFo3Lm-d0s-unsplash.jpg)")
+    $(".adventure").css("color", "black")
+    $(".adventure_container").hide();
+    $("#adventure_container3").show();
+})
+
+
+
+$("#btn1").click(function() {
+    $(".adventure_type").hide();
+    $("#adventure_fantacy").show();
+})
+
+
+
+
+
+
+
+
+// let page = document.getElementById("root");
+// let newPage = document.getElementById("newPage");
+
+
+// $("#switch2_3").click(function() {
+
+//     $("#story2_4").hide();
+//     $("#story2_5").hide();
+
+//     let cont = document.createElement("div");
+//     let div = document.createElement("div");
+//     let title = document.createElement("h1");
+//     let dec = document.createElement("p");
+
+
+//     cont.appendChild(div);
+//     div.appendChild(title);
+//     div.appendChild(dec);
+
+//     title = "books";
+//     dec = "books are good";
+
+// })
 
 
 
