@@ -1,0 +1,14 @@
+.Interest{
+    text-align: center;
+    text-justify: center;
+
+
+}
+.interest-container{
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Interest{
+    background-color: darkgray;
+    height: 100vh;
+}
