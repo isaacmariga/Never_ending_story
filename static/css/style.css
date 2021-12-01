@@ -21,9 +21,25 @@ p {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.nav_text>li {
-    text-decoration: none;
-    color: white;
+.login_page {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.login_page>form {
+    height: 700px;
+    width: 500px;
+    display: grid;
+    align-content: center;
+    border-color: rgba(0, 0, 0, 0.26);
+    border-style: solid;
+    box-shadow: 10px 10px 5px rgb(39, 39, 39);
+}
+
+.login_page>form>div {
+    padding: 20px;
 }
 
 .class_content {
