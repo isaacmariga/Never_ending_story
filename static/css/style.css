@@ -46,3 +46,22 @@ strong {
     padding: 20vw;
     background-color: rgb(255, 219, 172);
 }
+
+.adventure {
+    padding: 5vh 10vw;
+    height: 100%;
+}
+
+.adventure_container {
+    padding: 10vh 0vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.adventure_container>div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#adventure_container
