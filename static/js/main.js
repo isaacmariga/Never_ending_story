@@ -3,6 +3,12 @@ $("#harry").click(function() {
     $(".stories").show();
 })
 
+$("#genre_button").click(function() {
+    $(".stories").hide();
+    $("#adventure").show();
+})
+
+
 
 $("#switch0_4").click(function() {
     $("#story0_5").hide();
@@ -10,7 +16,6 @@ $("#switch0_4").click(function() {
     $("#story1").show();
 
 })
-
 
 
 
