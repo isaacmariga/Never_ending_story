@@ -10,10 +10,15 @@ $("#adv").click(function() {
 
 
 
-$(".genre_button").click(function() {
+$(".story_button").click(function() {
     $(".stories").hide();
     $("#advstory").hide();
     $("#adventure").show();
+})
+
+$(".genre_button").click(function() {
+    $(".adventure").hide();
+
 })
 
 
@@ -67,18 +72,21 @@ $('#submit').on('click', () => {
 $("#btn1").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(/static/images/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg)")
     $(".adventure").css("color", "black")
+    $("#adventure").show();
     $(".adventure_container").hide();
     $("#adventure_container").show();
 })
 $("#btn2").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(/static/images/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg)")
     $(".adventure").css("color", "white")
+    $("#adventure").show();
     $(".adventure_container").hide();
     $("#adventure_container2").show();
 })
 $("#btn3").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/static/images/lauza-loistl-pkFo3Lm-d0s-unsplash.jpg)")
     $(".adventure").css("color", "black")
+    $("#adventure").show();
     $(".adventure_container").hide();
     $("#adventure_container3").show();
 })
