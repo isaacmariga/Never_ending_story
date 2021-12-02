@@ -187,8 +187,9 @@ strong {
     cursor: pointer;
 }
 
-.interest-container>div>img {
-    max-height: 100px;
+.interest-container>div>a>img {
+    min-height: 50px;
+    max-height: 120px;
     width: auto;
 }
 
