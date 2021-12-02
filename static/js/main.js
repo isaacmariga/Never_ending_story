@@ -18,6 +18,8 @@ $(".genre_button").click(function() {
 
 
 
+
+
 $("#switch0_4").click(function() {
     $("#story0_5").hide();
     $(".story_piece").show();
@@ -67,14 +69,12 @@ $('#submit').on('click', () => {
 $("#btn1").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(/static/images/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg)")
     $(".adventure").css("color", "black")
-    $(".interest_section").hide();
     $(".adventure_container").hide();
     $("#adventure_container").show();
 })
 $("#btn2").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(/static/images/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg)")
     $(".adventure").css("color", "white")
-    $(".about").hide();
     $(".adventure_container").hide();
     $("#adventure_container2").show();
 })
@@ -108,4 +108,9 @@ $("#login_button").click(function() {
     console.log(loginName)
     console.log(loginPass)
 
+})
+
+$(".back_button").click(function() {
+    $(".adventure").hide();
+    $(".interest_section").show();
 })
