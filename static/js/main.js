@@ -67,12 +67,14 @@ $('#submit').on('click', () => {
 $("#btn1").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(/static/images/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg)")
     $(".adventure").css("color", "black")
+    $(".interest_section").hide();
     $(".adventure_container").hide();
     $("#adventure_container").show();
 })
 $("#btn2").click(function() {
     $(".adventure").css("background-image", "linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(/static/images/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg)")
     $(".adventure").css("color", "white")
+    $(".about").hide();
     $(".adventure_container").hide();
     $("#adventure_container2").show();
 })
