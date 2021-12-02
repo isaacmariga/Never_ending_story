@@ -92,7 +92,15 @@ $("#btn1").click(function() {
 
 $("#login_button").click(function() {
 
-            let loginName = $('#loginName').val();
-            let loginPass = $('#loginPass').val();
+    let loginName = $('#loginName').val();
+    let loginPass = $('#loginPass').val();
 
-            if ()
+    if (loginName === "Name" && loginPass == 1234) {
+        $("#page_contents").show();
+        $("#login_section").hide();
+    }
+
+    console.log(loginName)
+    console.log(loginPass)
+
+})
