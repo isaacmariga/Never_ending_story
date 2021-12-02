@@ -31,8 +31,9 @@ p {
     display: grid;
     place-items: center;
     align-content: center;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.26);
     border-style: solid;
+    box-shadow: 10px 10px 5px rgb(39, 39, 39);
     height: 60vh;
     width: 50vw;
 }
@@ -41,35 +42,14 @@ p {
     padding: 20px;
 }
 
-
-/* .login_page {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    align-content: center;
-}
-
-.login_page>form {
-    height: 700px;
-    width: 500px;
-    display: grid;
-    align-content: center;
-    border-color: rgba(0, 0, 0, 0.26);
-    border-style: solid;
-    box-shadow: 10px 10px 5px rgb(39, 39, 39);
-}
-
-.login_page>form>h2 {
-    align: justify;
-}
-
-.login_page>form>div {
-    padding: 20px;
-}
-
-.login_page>form>div>input {
+.login_section>div>div>input {
     box-shadow: 5px 5px 5px rgb(39, 39, 39);
-} */
+}
+
+#login_button {
+    padding: 10px;
+    border-radius: 20%;
+}
 
 .class_content {
     height: 100%;
@@ -182,17 +162,18 @@ strong {
 
 
 /* #adventure_container {} */
-.Interest{
+
+.Interest {
     text-align: center;
     text-justify: center;
-
-
 }
-.interest-container{
-    display :grid;
+
+.interest-container {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.Interest{
+
+.Interest {
     background-color: darkgray;
     height: 100vh;
 }
