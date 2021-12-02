@@ -169,13 +169,27 @@ strong {
 }
 
 .interest-container {
+    padding-top: 5em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 18em);
+    gap: 40px;
+    place-items: center;
 }
 
-.Interest {
+.interest_section {
+    padding: 10em;
+    color: black;
     background-color: darkgray;
-    height: 100vh;
+    height: 100%;
+}
+
+.interest-container>div {
+    cursor: pointer;
+}
+
+.interest-container>div>img {
+    max-height: 100px;
+    width: auto;
 }
 
 
