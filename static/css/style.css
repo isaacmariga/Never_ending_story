@@ -128,6 +128,11 @@ strong {
     cursor: pointer;
 }
 
+.adventure_container>div>div:hover {
+    transition: 0.3s;
+    scale: 1.1;
+}
+
 .adventure_type {
     display: none;
 }
@@ -190,6 +195,12 @@ strong {
 
 .interest-container>div {
     cursor: pointer;
+    text-align: center;
+}
+
+.interest-container>div:hover {
+    transition: 0.3s;
+    scale: 1.1;
 }
 
 .interest-container>div>a>img {
@@ -198,10 +209,9 @@ strong {
     width: auto;
 }
 
-
-/* #page_contents {
+#page_contents {
     display: none;
-} */
+}
 
 .hero {
     height: 80vh;
@@ -218,7 +228,7 @@ strong {
 }
 
 .nav_item>a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
