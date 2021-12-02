@@ -198,10 +198,9 @@ strong {
     width: auto;
 }
 
-
-/* #page_contents {
+#page_contents {
     display: none;
-} */
+}
 
 .hero {
     height: 80vh;
