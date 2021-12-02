@@ -14,6 +14,37 @@
 
 <body>
 
+    <!-- <section class="login_section">
+        <form action="" class="login_form">
+            <h2>Login page</h2>
+            <div class="login_container">
+                <label for="">Username : </label>
+                <input type="text">
+            </div>
+            <div class="login_container">
+                <label for="">Password :</label>
+                <input type="password">
+            </div>
+        </form>
+    </section>
+ -->
+
+
+
+    <!-- <section class="login_page">
+        <form action="" class="login-form">
+            <h2>Log in</h2>
+            <div class="login_items">
+                <label for="">Username</label>
+                <input type="text">
+            </div>
+            <div class="login_items">
+                <label for="">Password</label>
+                <input type="password">
+            </div>
+        </form>
+    </section> -->
+
     <section class="about">
 
         <div class="about_container">
@@ -30,37 +61,37 @@
         <button id="btn2">Horror</button>
         <button id="btn3">Romance</button>
     </section>
-    <section class="adventure">
+    <section class="adventure" id="adventure">
         <h2>Choose your adventure :</h2>
         <div class="adventure_container" id="adventure_container">
             <h2>Fantasy</h2>
             <div>
-                <div class="adventure_unit">
+                <div class="adventure_unit" id="harry">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Harry Potter</h3>
                         <p>Follow the world of wizarding in Harry Potter </p>
                     </div>
                 </div>
-                <div class="adventure_unit">
+                <div class="adventure_unit" id="adv">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Treasure Island</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <p>Travel through Treasure Island</p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Percy Jackson</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <p>Fight with The Gods with Percy Jackson </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Time machine</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <p>Have an adventure through time </p>
                     </div>
                 </div>
             </div>
@@ -73,29 +104,29 @@
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Harry Potter</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Moby Dick</h3>
+                        <p>Explore the sea with Moby Dick</p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Treasure Island</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>The Three Muscateers</h3>
+                        <p>Adventure with the three muscateers </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Percy Jackson</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Journey to the Center of the Earth </h3>
+                        <p>Travel to the center of the earth </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Time machine</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Tarzan</h3>
+                        <p>Explore the Jungle with Tarzan </p>
                     </div>
                 </div>
             </div>
@@ -108,29 +139,29 @@
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Harry Potter</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>50 Shades of Grey</h3>
+                        <p>Experience the seduction of Grey </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Treasure Island</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>The Notebook</h3>
+                        <p>Be swept off your feet with the Notebook </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Percy Jackson</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Romeo and Juliet</h3>
+                        <p>Indulge in the forbidden romance of Romeo and Juliette </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Time machine</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Honey Girl</h3>
+                        <p>Experience Vagas with Honey Girl </p>
                     </div>
                 </div>
             </div>
@@ -139,8 +170,9 @@
     </section>
 
 
-    <section class="stories" id="stories" style=background-image:url(/static/images/kiwihug-qZiXut0ikLc-unsplash.jpg);>
+    <section class="stories" id="hpstory" style=background-image:url(/static/images/kiwihug-qZiXut0ikLc-unsplash.jpg);>
         <div id="mainbranch">
+            <button class="genre_button">Back to Genre</button>
             <h2>Harry Potter</h2>
             <p id="story0_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cupiditate enim adipisci ipsum quasi voluptas dolorem neque. Necessitatibus quas perspiciatis, similique pariatur animi repellendus iure quisquam, suscipit, molestiae nam labore
                 error aliquam distinctio eveniet modi. Tempore nesciunt nam saepe quasi aliquid, illo expedita laudantium ex voluptas ab iure <strong id="switch0_1"> Add </strong></p>
@@ -213,30 +245,28 @@
         </div>
         <div id="story3" class="story" style="color: brown;">
             <h3>Author3</h3>
-            <div style="background-image:
-            linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(199, 199, 199, 0.73)),
-            url('images/background.jpg')" ">
-                <p id="story3_1 " class="story_piece ">Lorem ipsum dolor sit amet switch adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
+            <div>
+                <p id="story3_1" class="story_piece">Lorem ipsum dolor sit amet switch adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore switch. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch3_1 "> Add</strong>.</p>
+                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch3_1"> Add</strong>.</p>
                 <p id="story3_2 " class="story_piece ">Lorem ipsum dolor sit amet switch adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore switch. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat.<strong id="switch3_2 "> switch </strong></p>
+                    odit, id dolorum explicabo sequi nobis repellat.<strong id="switch3_2"> switch </strong></p>
                 <p id="story3_3 " class="story_piece ">Lorem ipsum dolor sit amet switch adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore switch. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch3_3 "> Add</strong>.</p>
-                <p id="story3_4 " class="story_piece ">Lorem ipsum dolor sit amet switch adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
+                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch3_3"> Add</strong>.</p>
+                <p id="story3_4" class="story_piece">Lorem ipsum dolor sit amet switch adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore switch. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat.<strong id="switch3_4 "> Add</strong></p>
+                    odit, id dolorum explicabo sequi nobis repellat.<strong id="switch3_4"> Add</strong></p>
 
             </div>
 
         </div>
-        <div id="story4 " class="story " style="color: green; ">
+        <div id="story4" class="story" style="color: green; ">
             <h3>Author4</h3>
             <div>
                 <p id="story4_1 " class="story_piece ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
@@ -259,37 +289,73 @@
             </div>
 
         </div>
-        <div id="story5 " class="story " style="color: purple; ">
-            <h3>Author5</h3>
+
+        <div id="story_new" class="story_new">
             <div>
-                <p id="story5_1 " class="story_piece ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
+                <div>
+                    <label for=" ">Author</label>
+                    <input type="text" id="storyAuthor">
+                </div>
+                <div>
+                    <label for=" ">Story</label>
+                    <textarea name=" " id="storyText" cols="70 " rows="10 "></textarea>
+                </div>
+                <button id="submit">Submit</button>
+
+            </div>
+
+        </div>
+
+        <div id="newStoryContainer">
+            <h2 id="newAuthor"></h2>
+            <p id="newStory"></p>
+        </div>
+
+    </section>
+
+    <section style="background-image: url(/static/images/kiwihug-qv05FvdE26k-unsplash.jpg);">
+        <div id="advstory" class="story">
+
+            <button class="genre_button">Back to Genre</button>
+
+            <h3>Treasure Island</h3>
+            <div>
+                <p id="story25_1 " class="story2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam in nihil tenetur ea nemo ducimus earum, totam deserunt praesentium quasi vitae amet reprehenderit repellat placeat repudiandae laboriosam consequuntur corporis beatae aliquid
+                    explicabo. Distinctio ea voluptatum aperiam iure veritatis repellendus cum perferendis, incidunt deleniti molestias ad aliquid similique facere autem at sit impedit hic minus atque. Perspiciatis neque assumenda ratione maxime fugiat
+                    velit perferendis quia libero, suscipit sit quos officia ipsam officiis mollitia cum? Quae consequatur voluptatibus ad quas est quo iure sit consectetur nam, repellendus fugit ratione facilis iste at. Hic similique aperiam ipsa unde
+                    magnam sunt voluptatem rerum fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum
+                    id sed similique, natus dicta asperiores quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore consectetur. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis
+                    similique impedit, saepe obcaecati expedita illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias
+                    repudiandae, veritatis magni! Odio laudantium odit, id dolorum explicabo sequi nobis repellat<strong id="switch5_1 "> Add </strong>.</p>
+                <p id="story25_2 " class="story2_piece ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore consectetur. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch5_1 "> consectetur </strong>.</p>
-                <p id="story5_2 " class="story_piece ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
+                    odit, id dolorum explicabo sequi nobis repellat.<strong id="switch5_2 "> Add </strong></p>
+                <p id="story25_3 " class="story2_piece ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore consectetur. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat.<strong id="switch5_2 "> consectetur </strong></p>
-                <p id="story5_3 " class="story_piece ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
-                    quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore consectetur. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
-                    illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
-                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch5_3 "> consectetur </strong>.</p>
-                <p id="story5_4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
+                    odit, id dolorum explicabo sequi nobis repellat<strong id="switch5_3 "> Switch </strong>.</p>
+                <p id="story25_4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi cumque deserunt nisi aspernatur doloremque, at ratione itaque ut voluptate esse laboriosam quibusdam soluta, nam quas laborum id sed similique, natus dicta asperiores
                     quae nostrum laudantium? Eum, distinctio ab. Incidunt eos dolore consectetur. Distinctio ad, facere facilis quas, porro ipsum ex quod odio, magnam suscipit neque repellat molestias fugiat. Quis similique impedit, saepe obcaecati expedita
                     illo adipisci mollitia, assumenda itaque culpa omnis deleniti doloremque sed. Nulla distinctio debitis fuga similique tempora reprehenderit voluptatibus officia molestiae itaque eius molestias repudiandae, veritatis magni! Odio laudantium
                     odit, id dolorum explicabo sequi nobis repellat.<strong id="switch5_4 "> consectetur </strong></p>
 
             </div>
 
+
         </div>
 
-        <section class="socials "></section>
 
-        <footer></footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-        <script src="static/js/main.js "></script>
+    </section>
+
+    <section class="socials "></section>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="static/js/main.js "></script>
 </body>
 
 </html>
