@@ -89,3 +89,10 @@ $("#btn1").click(function() {
     $(".adventure_type").hide();
     $("#adventure_fantacy").show();
 })
+
+$("#login_button").click(function() {
+
+            let loginName = $('#loginName').val();
+            let loginPass = $('#loginPass').val();
+
+            if ()
