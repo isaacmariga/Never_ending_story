@@ -127,6 +127,7 @@ strong {
 }
 
 .adventure {
+    display: none;
     padding: 5vh 10vw;
     height: 100%;
 }
