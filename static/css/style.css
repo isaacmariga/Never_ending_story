@@ -177,3 +177,35 @@ strong {
     background-color: darkgray;
     height: 100vh;
 }
+
+
+/* #page_contents {
+    display: none;
+} */
+
+.hero {
+    height: 80vh;
+    width: 100%;
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav_bar {
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 2fr;
+}
+
+.logo {
+    background-size: contain;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.nav_text {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    font-size: 1.5em;
+}
