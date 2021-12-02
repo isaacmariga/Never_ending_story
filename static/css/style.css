@@ -122,9 +122,10 @@ strong {
     gap: 200px;
 }
 
-.adventure_container>div {
+.adventure_container>div>div {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    cursor: pointer;
 }
 
 .adventure_type {
@@ -178,9 +179,13 @@ strong {
 
 .interest_section {
     padding: 10em;
-    color: black;
-    background-color: darkgray;
     height: 100%;
+    background-size: contain;
+}
+
+.interest-container>div>a {
+    color: black;
+    text-decoration: none;
 }
 
 .interest-container>div {
@@ -210,6 +215,22 @@ strong {
     padding: 32px;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 2fr;
+}
+
+.nav_item>a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_item {
+    list-style-type: none;
+}
+
+.nav_item :hover {
+    color: white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.452);
+    transition: 0.3s;
 }
 
 .logo {
