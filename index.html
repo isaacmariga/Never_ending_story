@@ -13,8 +13,27 @@
 </head>
 
 <body>
-    <section class="login_page">
+
+    <!-- <section class="login_section">
+        <form action="" class="login_form">
+            <h2>Login page</h2>
+            <div class="login_container">
+                <label for="">Username : </label>
+                <input type="text">
+            </div>
+            <div class="login_container">
+                <label for="">Password :</label>
+                <input type="password">
+            </div>
+        </form>
+    </section>
+ -->
+
+
+
+    <!-- <section class="login_page">
         <form action="" class="login-form">
+            <h2>Log in</h2>
             <div class="login_items">
                 <label for="">Username</label>
                 <input type="text">
@@ -24,7 +43,7 @@
                 <input type="password">
             </div>
         </form>
-    </section>
+    </section> -->
 
     <section class="about">
 
@@ -42,12 +61,12 @@
         <button id="btn2">Horror</button>
         <button id="btn3">Romance</button>
     </section>
-    <section class="adventure">
+    <section class="adventure" id="adventure">
         <h2>Choose your adventure :</h2>
         <div class="adventure_container" id="adventure_container">
             <h2>Fantasy</h2>
             <div>
-                <div class="adventure_unit">
+                <div class="adventure_unit" id="harry">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Harry Potter</h3>
@@ -58,21 +77,21 @@
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Treasure Island</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <p>Travel through Treasure Island</p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Percy Jackson</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <p>Fight with The Gods with Percy Jackson </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
                         <h3>Time machine</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <p>Have an adventure through time </p>
                     </div>
                 </div>
             </div>
@@ -85,29 +104,29 @@
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Harry Potter</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Moby Dick</h3>
+                        <p>Explore the sea with Moby Dick</p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Treasure Island</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>The Three Muscateers</h3>
+                        <p>Adventure with the three muscateers </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Percy Jackson</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Journey to the Center of the Earth </h3>
+                        <p>Travel to the center of the earth </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Time machine</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Tarzan</h3>
+                        <p>Explore the Jungle with Tarzan </p>
                     </div>
                 </div>
             </div>
@@ -120,29 +139,29 @@
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Harry Potter</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>50 Shades of Grey</h3>
+                        <p>Experience the seduction of Grey </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Treasure Island</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>The Notebook</h3>
+                        <p>Be swept off your feet with the Notebook </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Percy Jackson</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Romeo and Juliet</h3>
+                        <p>Indulge in the forbidden romance of Romeo and Juliette </p>
                     </div>
                 </div>
                 <div class="adventure_unit">
                     <img src="/static/images/icons8-nook-96.png" alt="">
                     <div>
-                        <h3>Time machine</h3>
-                        <p>Follow the world of wizarding in Harry Potter </p>
+                        <h3>Honey Girl</h3>
+                        <p>Experience Vagas with Honey Girl </p>
                     </div>
                 </div>
             </div>
@@ -293,7 +312,27 @@
 
             </div>
 
+
         </div>
+
+        <div id = "story_new " class="story_new ">
+            <div>
+                <div>
+                <label for=" ">Author</label>
+                <input type="text " id = "storyAuthor ">
+                 </div>
+                <div>
+                <label for=" ">Story</label>
+                <textarea name=" " id="storyText " cols="70 " rows="10 "></textarea>
+                </div>
+                 <button id = "submit ">Submit</button>
+
+            </div>
+            <h2 id="newAuthor "></h2>
+            <p id ="newStory "></p>
+        </div>
+            
+       
 
         <section class="socials "></section>
 

@@ -21,7 +21,28 @@ p {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.login_page {
+.login_section {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.login_form {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    border-color: black;
+    border-style: solid;
+    height: 60vh;
+    width: 50vw;
+}
+
+.login_container {
+    padding: 20px;
+}
+
+
+/* .login_page {
     height: 100vh;
     display: grid;
     place-items: center;
@@ -38,9 +59,17 @@ p {
     box-shadow: 10px 10px 5px rgb(39, 39, 39);
 }
 
+.login_page>form>h2 {
+    align: justify;
+}
+
 .login_page>form>div {
     padding: 20px;
 }
+
+.login_page>form>div>input {
+    box-shadow: 5px 5px 5px rgb(39, 39, 39);
+} */
 
 .class_content {
     height: 100%;
@@ -131,6 +160,12 @@ strong {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+/* 
+.story_new {
+    display: none;
+} */
 
 
 /* #adventure_container {} */

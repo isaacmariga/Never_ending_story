@@ -1,9 +1,18 @@
+$("#harry").click(function() {
+    $("#adventure").hide();
+    $(".stories").show();
+    $("#story1").show();
+
+})
+
+
 $("#switch0_4").click(function() {
     $("#story0_5").hide();
     $(".story_piece").show();
     $("#story1").show();
 
 })
+
 
 
 
@@ -19,6 +28,18 @@ $("#switch2_4").click(function() {
     $("#story2_5").hide();
     $("#story3").show();
 })
+
+$('#submit').on('click', () => {
+    let aut = $('#storyAuthor').val();
+    let text = $('#storyText').val();
+
+
+    $("h2#newAuthor ").append(aut);
+    $("p#newStory ").html(text);
+
+
+})
+
 
 
 
