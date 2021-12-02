@@ -10,8 +10,9 @@ $("#adv").click(function() {
 
 
 
-$("#genre_button").click(function() {
+$(".genre_button").click(function() {
     $(".stories").hide();
+    $("#advstory").hide();
     $("#adventure").show();
 })
 

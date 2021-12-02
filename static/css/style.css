@@ -165,7 +165,7 @@ strong {
     display: none;
 }
 
-#genre_button {
+.genre_button {
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.212);
     border-radius: 20px;
