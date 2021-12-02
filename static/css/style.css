@@ -42,8 +42,13 @@ p {
     padding: 20px;
 }
 
-.login_section>form>div>input {
+.login_section>div>div>input {
     box-shadow: 5px 5px 5px rgb(39, 39, 39);
+}
+
+#login_button {
+    padding: 10px;
+    border-radius: 20%;
 }
 
 
