@@ -98,6 +98,9 @@ $("#login_button").click(function() {
     if (loginName === "Name" && loginPass == 1234) {
         $("#page_contents").show();
         $("#login_section").hide();
+    } else {
+        alert("Incorrect Password or login")
+
     }
 
     console.log(loginName)
