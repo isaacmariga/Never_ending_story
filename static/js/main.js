@@ -1,8 +1,6 @@
 $("#harry").click(function() {
     $("#adventure").hide();
     $(".stories").show();
-    $("#story1").show();
-
 })
 
 
