@@ -1,7 +1,14 @@
 $("#harry").click(function() {
     $("#adventure").hide();
-    $(".stories").show();
+    $("#hpstory").show();
 })
+
+$("#adv").click(function() {
+    $("#adventure").hide();
+    $("#advstory").show();
+})
+
+
 
 $("#genre_button").click(function() {
     $(".stories").hide();
