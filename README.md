@@ -10,7 +10,9 @@ Password : 1234
 ## Live link
 * Follow the link https://isaacmariga.github.io/Never_ending_story/
 ## Known Bugs
-{main.js is not linked to index.html }
+{Not all links open }
+{Only the last red "Add" link under Author 3 adds content }
+
 ## Technologies Used
 The site was built with HTML, CSS and Java Script
 ## Support and contact details
